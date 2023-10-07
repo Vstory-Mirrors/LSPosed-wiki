@@ -33,7 +33,7 @@ Comparison among content sharing APIs:
 Note that most things are unstable, untested. APIs are likely to change in the feature. But you can still try them in your module if you need some of the new features. Please don't release a stable release until the new APIs are stable.
 The current development status of all components are listed below.
 
-|Componment|Usage|Repository|Status|
+|Component|Usage|Repository|Status|
 |:-|:-|:-|:-|
 |LSPosed|Implement API and service; you don't need to declaring any dependency for it.|https://github.com/LSPosed/LSPosed|Available|
 |API|User interface for hooks; you should declare it as dependency by `compileOnly`; don't use it together with the legacy `XposedBridge`|https://github.com/libxposed/api|Roughly stable|
