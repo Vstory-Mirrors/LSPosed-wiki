@@ -20,7 +20,7 @@ Module configuration uses entries as following:
 Comparison among content sharing APIs:
 |Name|API|Supported|Storage Location|Change Listener|Large Content|
 |:-:|:-:|:-:|:-|:-:|:-:|
-|[New XSharedPreferences](https://github.com/LSPosed/LSPosed/wiki/New-XSharedPreferences)|Legacy(ext)|❌ Since v2.1.0|/data/misc/\<random\>/prefs/\<module\>|❌|❌|
+|[New XSharedPreferences](https://github.com/LSPosed/LSPosed/wiki/New-XSharedPreferences)|Legacy (ext)|❌ Since v2.1.0 (postponed)|/data/misc/\<random\>/prefs/\<module\>|❌|❌|
 |[XSharedPreferences](https://api.xposed.info/reference/de/robv/android/xposed/XSharedPreferences.html)|Legacy|✅ Since v2.0.0|Module apps' internal storage|❌|❌|
 |Remote Preferences|Modern|✅ Since v1.9.0|LSPosed database|✅|❌|
 |Remote Files|Modern|✅ Since v1.9.0|/data/adb/lspd/modules/\<user\>/\<module\>|❌|✅|
