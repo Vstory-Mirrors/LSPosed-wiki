@@ -9,8 +9,10 @@ Native Hook can help you hook native functions of an app. Whenever a new native 
 To use Native hook, you have to first create a header file with the following content:
 ```c++
 
+// when success, return 0
 typedef int (*HookFunType)(void *func, void *replace, void **backup);
 
+// when success, return 0
 typedef int (*UnhookFunType)(void *func);
 
 typedef void (*NativeOnModuleLoaded)(const char *name, void *handle);
